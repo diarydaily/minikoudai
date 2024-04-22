@@ -326,6 +326,16 @@ header h2 {
   font-size: 7vw;
 }
 
+#prev {
+  position:relative;
+  left: 30vw;
+}
+
+#next {
+  position: relative;
+  right: 30vw;
+}
+
 /* goal */
 
 #link-goal h1 {
