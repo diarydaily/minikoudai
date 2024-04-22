@@ -3,7 +3,7 @@
 /* body */
 
 body {
-  display: flex;
+  display: inline-block;
   flex-direction: column;
 }
 
@@ -270,11 +270,6 @@ footer {
   /* header */
 
 /* title */
-
-body {
-  display: flex;
-  flex-direction: column;
-}
 
 header {
   margin:5vw 7.5vw 0;
