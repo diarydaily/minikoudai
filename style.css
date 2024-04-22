@@ -7,6 +7,11 @@ body {
   flex-direction: column;
 }
 
+.deco-title {
+  color: red;
+  font-size: 150%;
+}
+
 /* header */
 
 /* title */
@@ -26,11 +31,7 @@ header h1 {
   font-size: 10vh;
 }
 
-header h1 .deco {
-  margin-top: 0;
-  color: red;
-  font-size: 150%;
-}
+
 
 header .img {
   filter: opacity(0%);
@@ -254,6 +255,7 @@ article {
 }
 
 #link-detail dd {
+  color: darkcyan;
   margin-left: 25vh;
   font-size: 4vh;
   padding: 8px;
@@ -374,6 +376,7 @@ footer {
   }
 
   #link-detail dd {
+    color: darkcyan;
     margin-left: 12.5vw;
     font-size: 6vw;
     padding: 8px;
