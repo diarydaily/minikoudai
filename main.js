@@ -32,7 +32,7 @@ var triggers = Array.from(link);
   const next = document.getElementById('next');
   const prev = document.getElementById('prev');
   const ul = document.querySelector('ul');
-  const sumP = document.querySelector('#link-summary p');
+  const sumP = document.querySelector('#link-summary p .text');
   const slides = ul.children;
   let currentIndex = 0;
 
