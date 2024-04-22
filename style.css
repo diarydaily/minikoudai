@@ -133,6 +133,7 @@ article {
 /* summary */
 
 .container {
+  position: relative;
   width: 50%;
   height: 50%;
   margin: 16px auto;
@@ -169,6 +170,7 @@ article {
 
 #prev,
 #next {
+  position: absolute;
   border: none;
   background: rgba(0, 0, 0, .8);
   color: #fff;
@@ -178,15 +180,12 @@ article {
 }
 
 #prev {
-  position: absolute;
-  left: 30vw;
+  left: 0;
 }
 
 #next {
-  position: absolute;
-  right: 30vw;
+  right: 0;
 }
-
 .hidden {
   display: none;
 }
@@ -325,13 +324,6 @@ header h2 {
 #link-summary p {
   font-size: 7vw;
 }
-
-#prev,
-#next {
-  position:static
-}
-
-
 
 /* goal */
 
