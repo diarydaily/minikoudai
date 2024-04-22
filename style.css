@@ -178,11 +178,13 @@ article {
 }
 
 #prev {
-  left: 40vw;
+  position: absolute;
+  left: 30vw;
 }
 
 #next {
-  right: 40vw;
+  position: absolute;
+  right: 30vw;
 }
 
 .hidden {
