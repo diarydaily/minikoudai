@@ -32,8 +32,8 @@ var triggers = Array.from(link);
   const next = document.getElementById('next');
   const prev = document.getElementById('prev');
   const ul = document.querySelector('ul');
-  const sumP = document.querySelector('#link-summary p .text');
-  const empty = document.querySelector('link-summary p .void');
+  const sumP = document.querySelector('#link-summary .textcontent');
+  const empty = document.querySelector('#link-summary .empty');
   const slides = ul.children;
   let currentIndex = 0;
 
@@ -59,7 +59,6 @@ var triggers = Array.from(link);
       case 2 :
       sumP.textContent = '数十の追加アイテム';
       empty.classList.add('addempty');
-    
       break;
     }
   }
