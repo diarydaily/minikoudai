@@ -132,8 +132,13 @@ article {
 
 /* summary */
 
+#sum-button {
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .container {
-  position: relative;
   width: 50%;
   height: 50%;
   margin: 16px auto;
@@ -170,22 +175,22 @@ article {
 
 #prev,
 #next {
-  position: absolute;
   border: none;
   background: rgba(0, 0, 0, .8);
   color: #fff;
-  font-size: 200%;
+  font-size: 10vw;
   padding: 0 8px 4px;
   cursor: pointer;
 }
 
-#prev {
-  left: 0;
+.empty {
+width: 30vw;
 }
 
-#next {
-  right: 0;
+.empty .addempty {
+  width: 40vw;
 }
+
 .hidden {
   display: none;
 }

@@ -33,6 +33,7 @@ var triggers = Array.from(link);
   const prev = document.getElementById('prev');
   const ul = document.querySelector('ul');
   const sumP = document.querySelector('#link-summary p .text');
+  const empty = document.querySelector('link-summary p .void');
   const slides = ul.children;
   let currentIndex = 0;
 
@@ -49,12 +50,16 @@ var triggers = Array.from(link);
     switch(currentIndex) {
       case 0 :
       sumP.textContent = '敵の強化';
+      empty.classList.add('addempty');
       break;
       case 1 :
       sumP.textContent = '豊富な難易度上昇要素';
+      empty.classList.remove('addempty');
       break;
       case 2 :
       sumP.textContent = '数十の追加アイテム';
+      empty.classList.add('addempty');
+    
       break;
     }
   }
