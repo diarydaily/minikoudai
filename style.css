@@ -3,8 +3,14 @@
 /* body */
 
 body {
-  display: inline-block;
-  flex-direction: column;
+  display: flex;
+  text-align: center;
+  font-family: "sans-serif", serif;
+}
+
+.main {
+  width: 70vw;
+  margin: 0 5vw;
 }
 
 .deco-title {
@@ -17,21 +23,18 @@ body {
 /* title */
 
 header {
-  margin: 10vh 15vh 0;
+  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+  margin: 10vh 0;
   border-radius: 10vh;
   background-color: rgb(241, 241, 241);
-  text-align: center;
   padding-top: 10vh;
 }
 
 header h1 {
-  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
   margin-bottom: 10vh;
   margin-top: 4vh;
   font-size: 10vh;
 }
-
-
 
 header .img {
   filter: opacity(0%);
@@ -51,18 +54,13 @@ header .img-show {
 }
 
 header h2 {
-  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
   font-size: 10vh;
 }
 
 /* main */
-.contents {
-  font-family: "sans-serif", serif;
-  display: flex;
-}
 
 .elements {
-  margin: 10vh 15vh 0;
+  margin: 10vh 0;
   border-color: #d3c1af;
   border-style: solid;
   border-width: 3vh;
@@ -73,12 +71,25 @@ header h2 {
 /* menu */
 
 aside {
-  position: fixed;
-  top: 0;
-  right: 0;
+  background-color: ghostwhite;
+  opacity: 90%;
+  margin-top: 10vh;
+  padding-top: 10vh;
+  width: 20vw;
+  border-radius: 5vh;
+}
+
+aside img {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 3vw;
 }
 
 .menu #open {
+  position: fixed;
+  top: 0;
+  right: 0;
+  flex-direction: column;
   font-size: 10vh;
   line-height: 64px;
   cursor: pointer;
@@ -279,22 +290,20 @@ footer {
   /* title */
 
   header {
-    margin: 5vw 7.5vw 0;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+    margin: 5vw 0;
     border-radius: 5vw;
     background-color: rgb(241, 241, 241);
-    text-align: center;
     padding-top: 5vw;
   }
 
   header h1 {
-    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
     margin-bottom: 5vw;
     margin-top: 2vw;
     font-size: 7vw;
   }
 
   header h2 {
-    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
     font-size: 7vw;
   }
 
@@ -309,7 +318,7 @@ footer {
   /* main */
 
   .elements {
-    margin: 5vw 7.5vw 0;
+    margin: 5vw 0;
     border-color: #d3c1af;
     border-style: solid;
     border-width: 1.5vw;
